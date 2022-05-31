@@ -19,9 +19,9 @@ handler.all = async function (m, { isBlocked }) {
 ║  𝙊𝙒𝙉𝙀𝙍 @${global.owner[0]}
 ╠════════════════════════
 ║╭──❉ 「 𝗗𝗢𝗡𝗔𝗦𝗜 」 ❉──────
-║│➸ *DANA* : 081360482998
-║│➸ *PULSA*: 081360482998
-║│➸ *OVO*: 081360482998
+║│➸ *DANA* : 083813417529 [Riel]
+║│➸ *PULSA*: 083813417529
+║│➸ *OVO*: ~~~~~~~~~
 ║╰──────────────────
 ╠════════════════════════
 ║╭──❉ 「 𝗦𝗘𝗪𝗔 𝗕𝗢𝗧 」 ❉─────
@@ -86,7 +86,7 @@ handler.all = async function (m, { isBlocked }) {
 
         let uptime = clockString(_uptime)
 
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | by ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×`).catch(_ => _)
+        await this.setStatus(`⏲️ Active selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | 🎧 ᴹᴿ𝙄𝙩𝙨𝙈𝙚𝙍𝙞𝙚𝙡 ×፝֟͜×`).catch(_ => _)
 
         setting.status = new Date() * 1
 
