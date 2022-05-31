@@ -86,7 +86,7 @@ handler.all = async function (m, { isBlocked }) {
 
         let uptime = clockString(_uptime)
 
-        await this.setStatus(`⏲️ Active selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | 🎧 ᴹᴿ𝙄𝙩𝙨𝙈𝙚𝙍𝙞𝙚𝙡 ×፝֟͜×`).catch(_ => _)
+        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | by ᴹᴿ𝙄𝙩𝙨𝙈𝙚𝙍𝙞𝙚𝙡 ×፝֟͜×`).catch(_ => _)
 
         setting.status = new Date() * 1
 
